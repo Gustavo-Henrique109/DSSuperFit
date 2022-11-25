@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+:root {
+    --red-color: #F03C42;
+    --white-color: #FFF;
+    --black-color: #000;
+    --dark-blue-color: #222374;
+    --grey-color: #CCC;
+}
+
+header {
+    background-color: var(--red-color);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+nav h1, a {
+    color: var(--white-color);
+}
+
+.right-side-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+
+#know-our-space {
+    background-color: var(--dark-blue-color);
+    padding: 20px 0px;
+}
+
+#know-our-space h2 {
+    color: var(--white-color);
+    font-size: 32px;
+}
+
+.card-first-section {
+    background-color: var(--grey-color);
+    padding: 20px;
+    margin: 20px 0px;
+    border-radius: 8px;
+    height: 127px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-first-section h4 {
+    font-size: 20px;
+}
+
+.card-first-section p {
+    font-size: 14px;
+}
+
+#modalities {
+    background-color: var(--white-color);
+    padding: 20px 0px;
+}
+
+#modalities h2 {
+    color: var(--red-color);
+    font-size: 32px;
+}
+
+.card-second-section {
+    background-color: var(--dark-blue-color);
+    padding: 20px;
+    height: 106px;
+    margin: 20px 0px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-second-section h4 {
+    color: var(--white-color);
+    font-size: 20px;
+}
+
+.card-second-section p {
+    color: var(--white-color);
+    font-size: 14px;
+}
+
+footer {
+    background-color: var(--black-color);
+    height: 262px;
+    color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+footer img {
+    width: 30px;
+    margin: 5px 10px;
+}
+
+.footer {
+    height: 262px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    margin-top: 30px;
+}
+
+.footer-social-div {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
